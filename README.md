@@ -1,12 +1,19 @@
 # Sherman-Morrison Theorem in Lean 4
 
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18283772.svg)](https://doi.org/10.5281/zenodo.18283772)
-
 
 A complete formal verification of the Sherman-Morrison theorem in Lean 4 with Mathlib. This theorem provides an efficient formula for computing the inverse of a rank-one update to an invertible matrix, which is fundamental in numerical linear algebra, optimization algorithms, and statistical computing.
 
-## How to Cite This Work
+## Authors
+
+- **Michael J. Kane** <michael.kane@r-project.org>
+  [ORCID: 0000-0003-1899-6662](https://orcid.org/0000-0003-1899-6662)
+
+- **Aristotle (Harmonic)** <aristotle-harmonic@harmonic.fun>
+
+- **Daniel Zelterman** <daniel.zelterman@yale.edu>
+  [ORCID: 0000-0003-0711-8688](https://orcid.org/0000-0003-0711-8688)
+
 
 **BibTeX:**
 ```bibtex
@@ -25,17 +32,6 @@ A complete formal verification of the Sherman-Morrison theorem in Lean 4 with Ma
 
 For detailed citation information, see [CITATION.cff](CITATION.cff).
 
-## Authors
-
-- **Michael J. Kane** <michael.kane@r-project.org>
-  [ORCID: 0000-0003-1899-6662](https://orcid.org/0000-0003-1899-6662)
-
-- **Aristotle (Harmonic)** <aristotle-harmonic@harmonic.fun>
-
-- **Daniel Zelterman** <daniel.zelterman@yale.edu>
-  [ORCID: 0000-0003-0711-8688](https://orcid.org/0000-0003-0711-8688)
-
----
 
 ## Theorem Statement
 

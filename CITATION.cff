@@ -4,7 +4,7 @@ type: software
 title: "Sherman-Morrison Theorem: Formal Verification in Lean 4"
 version: "0.1.0"
 date-released: "2026-01-17"
-doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.18283772
 url: "https://github.com/kaneplusplus/ShermanMorrison"
 repository-code: "https://github.com/kaneplusplus/ShermanMorrison"
 license: MIT

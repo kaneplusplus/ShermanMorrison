@@ -1,0 +1,14 @@
+name = "ShermanMorrison"
+version = "0.1.0"
+keywords = ["sherman-morrison", "matrix-inverse", "linear-algebra", "formal-verification"]
+homepage = "https://github.com/yourusername/ShermanMorrison"
+description = "Formal verification of the Sherman-Morrison theorem in Lean 4"
+license = "MIT"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "f897ebcf72cd16f89ab4577d0c826cd14afaafc7"
+
+[[lean_lib]]
+name = "ShermanMorrison"

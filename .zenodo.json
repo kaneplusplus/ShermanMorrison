@@ -1,0 +1,64 @@
+{
+  "title": "Sherman-Morrison Theorem: Formal Verification in Lean 4",
+  "description": "A complete formal verification of the Sherman-Morrison theorem in Lean 4 with Mathlib. The Sherman-Morrison theorem provides an efficient formula for computing the inverse of a rank-one update to an invertible matrix. This formalization includes a constructive proof verified by the Lean 4 type checker, making it suitable for use in certified numerical algorithms and as a reference for formal verification of linear algebra theorems.",
+  "version": "0.1.0",
+  "upload_type": "software",
+  "license": "MIT",
+  "language": "lean",
+  "creators": [
+    {
+      "name": "Kane, Michael J.",
+      "affiliation": "Telperian Inc., The Univeristy of Texas MD Anderson Cancer Center, Yale University",
+      "orcid": "0000-0003-1899-6662"
+    },
+    {
+      "name": "Aristotle (Harmonic)",
+      "affiliation": "Harmonic"
+    },
+    {
+      "name": "Zelterman, Daniel",
+      "affiliation": "Yale University",
+      "orcid": "0000-0003-0711-8688"
+    }
+  ],
+  "keywords": [
+    "Sherman-Morrison theorem",
+    "formal verification",
+    "Lean 4",
+    "Mathlib",
+    "matrix inverse",
+    "linear algebra",
+    "rank-one update",
+    "computational mathematics",
+    "theorem proving",
+    "certified software",
+    "72000105-cc0a-45d1-a3d9-9c2c76ac72d6"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1214/aoms/1177729893",
+      "relation": "isCitedBy",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://leanprover.github.io/",
+      "relation": "isCompiledBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/leanprover-community/mathlib4",
+      "relation": "requires",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aristotle AI Proof Assistant",
+      "affiliation": "Harmonic",
+      "type": "Other"
+    }
+  ],
+  "notes": "This proof was created with assistance from Aristotle, an AI proof assistant by Harmonic. Project UUID: 72000105-cc0a-45d1-a3d9-9c2c76ac72d6. The formalization uses Lean 4 version v4.24.0 and Mathlib commit f897ebcf72cd16f89ab4577d0c826cd14afaafc7."
+}

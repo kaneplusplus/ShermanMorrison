@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Sherman-Morrison Theorem: Formal Verification in Lean 4"
+version: "0.1.0"
+date-released: "2026-01-17"
+doi: 10.5281/zenodo.XXXXXXX
+url: "https://github.com/kaneplusplus/ShermanMorrison"
+repository-code: "https://github.com/kaneplusplus/ShermanMorrison"
+license: MIT
+abstract: >-
+  A complete formal verification of the Sherman-Morrison theorem in Lean 4
+  with Mathlib. The Sherman-Morrison theorem provides an efficient formula
+  for computing the inverse of a rank-one update to an invertible matrix.
+  This formalization includes a constructive proof verified by the Lean 4
+  type checker, making it suitable for use in certified numerical algorithms
+  and as a reference for formal verification of linear algebra theorems.
+
+authors:
+  - family-names: Kane
+    given-names: "Michael J."
+    email: michael.kane@r-project.org
+    orcid: "https://orcid.org/0000-0003-1899-6662"
+
+  - name: "Aristotle (Harmonic)"
+    email: aristotle-harmonic@harmonic.fun
+
+  - family-names: Zelterman
+    given-names: Daniel
+    email: daniel.zelterman@yale.edu
+    orcid: "https://orcid.org/0000-0003-0711-8688"
+
+keywords:
+  - "Sherman-Morrison theorem"
+  - "formal verification"
+  - "Lean 4"
+  - "Mathlib"
+  - "matrix inverse"
+  - "linear algebra"
+  - "rank-one update"
+  - "computational mathematics"
+  - "theorem proving"
+  - "72000105-cc0a-45d1-a3d9-9c2c76ac72d6"
+
+references:
+  - type: article
+    authors:
+      - family-names: Sherman
+        given-names: Jack
+      - family-names: Morrison
+        given-names: "Winifred J."
+    title: "Adjustment of an inverse matrix corresponding to a change in one element of a given matrix"
+    journal: "The Annals of Mathematical Statistics"
+    volume: 21
+    issue: 1
+    year: 1950
+    start: 124
+    end: 127
+    doi: "10.1214/aoms/1177729893"

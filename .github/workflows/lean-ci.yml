@@ -1,0 +1,34 @@
+name: Lean CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build and Verify Sherman-Morrison Theorem
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Lean 4 and build project
+        uses: leanprover/lean-action@v1
+        id: lean
+        with:
+          use-mathlib-cache: true
+          build-args: "--wfail"
+          auto-config: true
+
+      - name: Verify theorem type-checking
+        run: lean ShermanMorrison.lean
+
+      - name: Display build status
+        if: always()
+        run: |
+          echo "Build Status: ${{ steps.lean.outputs.build-status }}"
+          echo "Test Status: ${{ steps.lean.outputs.test-status }}"

@@ -25,7 +25,7 @@ jobs:
           auto-config: true
 
       - name: Verify theorem type-checking
-        run: lean ShermanMorrison.lean
+        run: lake env lean ShermanMorrison.lean
 
       - name: Display build status
         if: always()

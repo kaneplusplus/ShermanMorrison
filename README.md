@@ -227,10 +227,14 @@ All proofs are constructive and verified by the Lean 4 type checker.
 
 ```
 .
+├── .github/
+│   └── workflows/
+│       └── lean-ci.yml        # GitHub Actions CI workflow
 ├── README.md                  # This file
 ├── ShermanMorrison.lean       # Main theorem proof
 ├── lakefile.toml              # Lake build configuration
 ├── lean-toolchain             # Specifies Lean version
+├── lake-manifest.json         # Dependency lock file
 ├── CITATION.cff               # Citation metadata
 ├── LICENSE                    # MIT License
 └── .zenodo.json               # Zenodo metadata

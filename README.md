@@ -1,8 +1,6 @@
 # Sherman-Morrison Theorem in Lean 4
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18283772-blue)](https://doi.org/10.5281/zenodo.18283772)
-
-[![Lean CI](https://github.com/kaneplusplus/ShermanMorrison/actions/workflows/lean-ci.yml/badge.svg)](https://github.com/kaneplusplus/ShermanMorrison/actions/workflows/lean-ci.yml)
+[![Lean CI](https://github.com/kaneplusplus/ShermanMorrison/actions/workflows/lean-ci.yml/badge.svg)](https://github.com/kaneplusplus/ShermanMorrison/actions/workflows/lean-ci.yml) [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18283772-blue)](https://doi.org/10.5281/zenodo.18283772)
 
 A complete formal verification of the Sherman-Morrison theorem in Lean 4 with Mathlib. This theorem provides an efficient formula for computing the inverse of a rank-one update to an invertible matrix, which is fundamental in numerical linear algebra, optimization algorithms, and statistical computing.
 

@@ -119,7 +119,7 @@ The condition $\alpha = 1 + v^T A^{-1}u \neq 0$ is necessary because:
 
 ## Lean Proof Structure
 
-The Lean formalization follows this outline:
+The Lean formalization in [ShermanMorrison.lean](ShermanMorrison.lean) follows this outline:
 
 ### 1. Setup Phase (lines 40-43)
 Define the key expressions:
